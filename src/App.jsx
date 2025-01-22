@@ -29,7 +29,7 @@ function App() {
         {userInput.duration > 0 ? (
           <ResultList result={userInput} />
         ) : (
-          <p>Duration must be greater then 0</p>
+          <p className="center">Duration must be greater then 0</p>
         )}
       </main>
     </>
